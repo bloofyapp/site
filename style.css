@@ -24,14 +24,19 @@
     font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    font-weight: 500;
-    font-size: 4rem;
+header {
+    display: grid;
+    place-items: center;
 }
 
 header > img {
     border-radius: 20%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 4rem;
 }
 
 body {
